@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let a = +prompt("Nhập giá trị a");
+  let b = +prompt("Nhập giá trị b");
+  let c = +prompt("Nhập giá trị c");
+  // console.log()
+  if (a+b>c && a+c>b && b+c>a) {
+    if (a==b && b==c) {
+      alert("Đây là tam giác đều");
+    } else {
+      alert("Đây không phải tam giác đều");
+    }
+  }
+  else{
+    alert("Đây không phải tam giác");
+  }
+</script>
+</body>
+</html>

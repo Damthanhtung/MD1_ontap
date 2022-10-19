@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Nhập:
+<input type="number" id="value" oninput="calculate()" onchange="calculate()" >
+<p id="show"></p>
+<script>
+    function calculate(){
+        let a = document.getElementById('value').value;
+        let C = a*4;
+        let S = a*a;
+    document.getElementById('show').innerHTML = "Chu vi hình vuông là: "+C + '<br>'+ "Diện tích hình vuông là: "+S;
+    }
+
+</script>
+
+
+</body>
+</html>
